@@ -1,0 +1,727 @@
+{
+  "Ketone": {
+    "name": "Ketone",
+    "unit": "mmol/l",
+    "clinical": ["NEGATIVE", "TRACE", "MODERATE", "EXCESS"],
+    "quantitative": ["NONE", "LOW", "MEDIUM", "HIGH"],
+    "stable": {
+      "rgb": [
+        [253, 223, 185],
+        [204, 183, 152],
+        [203, 173, 139],
+        [201, 171, 136],
+        [197, 167, 133]
+      ],
+      "hex": ["#FDDFB9", "#CCB798", "#CBAD8B", "#C9AB88", "#C5A785"],
+      "value": "negative"
+    },
+    "categories": {
+      "TRACE": {
+        "label": "Trace",
+        "clinical_name": "TRACE",
+        "quantitative_name": "LOW",
+        "values": ["0.5", "1.5"],
+        "rgb": [
+          [247, 195, 171],
+          [242, 166, 168],
+          [203, 173, 139],
+          [201, 171, 136],
+          [197, 167, 133]
+        ],
+        "hex": ["#F7C3AB", "#F2A6A8", "#CBAD8B", "#C9AB88", "#C5A785"]
+      },
+      "MODERATE": {
+        "value": 4.0,
+        "label": "Moderate",
+        "rgb": [207, 88, 110],
+        "hex": "#CF586E"
+      },
+      "EXCESS": {
+        "values": ["8.0", "15.0"],
+        "label": "Excess",
+        "rgb": [
+          [162, 53, 111],
+          [146, 25, 102]
+        ],
+        "hex": ["#A2356F", "#921966"]
+      }
+    },
+    "values": [
+      {
+        "value": "0.5",
+        "category": "TRACE",
+        "rgb": [197, 167, 133],
+        "hex": "#C5A785"
+      },
+      {
+        "value": "1.5",
+        "category": "TRACE",
+        "rgb": [242, 166, 168],
+        "hex": "#F2A6A8"
+      },
+      {
+        "value": "4.0",
+        "category": "MODERATE",
+        "rgb": [207, 88, 110],
+        "hex": "#CF586E"
+      },
+      {
+        "value": "8.0",
+        "category": "EXCESS",
+        "rgb": [162, 53, 111],
+        "hex": "#A2356F"
+      },
+      {
+        "value": "15.0",
+        "category": "EXCESS",
+        "rgb": [146, 25, 102],
+        "hex": "#921966"
+      }
+    ]
+  },
+  "Protein": {
+    "name": "Protein",
+    "unit": "g/l",
+    "clinical": ["NEGATIVE", "TRACE", "MODERATE", "EXCESS"],
+    "quantitative": ["NONE", "LOW", "MEDIUM", "HIGH"],
+    "stable": {
+      "rgb": [
+        [252, 236, 81],
+        [220, 217, 140],
+        [211, 190, 107]
+      ],
+      "hex": ["#FCEC51", "#DCD98C", "#D3BE6B"],
+      "value": "negative"
+    },
+    "categories": {
+      "LOW": {
+        "label": "Low",
+        "values": ["none", "0.3"],
+        "rgb": [
+          [248, 234, 85],
+          [238, 230, 83]
+        ],
+        "hex": ["#F8EA55", "#EEE653"]
+      },
+      "MEDIUM": {
+        "value": 1.0,
+        "label": "Medium",
+        "rgb": [204, 216, 90],
+        "hex": "#CCD85A"
+      },
+      "LARGE": {
+        "values": ["3.0", ">20.0"],
+        "label": "Large",
+        "rgb": [
+          [154, 199, 130],
+          [121, 191, 129]
+        ],
+        "hex": ["#9AC782", "#79BF81"]
+      }
+    },
+    "values": [
+      {
+        "value": "none",
+        "category": "LOW",
+        "rgb": [248, 234, 85],
+        "hex": "#F8EA55"
+      },
+      {
+        "value": "0.3",
+        "category": "LOW",
+        "rgb": [238, 230, 83],
+        "hex": "#EEE653"
+      },
+      {
+        "value": "1.0",
+        "category": "MEDIUM",
+        "rgb": [204, 216, 90],
+        "hex": "#CCD85A"
+      },
+      {
+        "value": "3.0",
+        "category": "LARGE",
+        "rgb": [154, 199, 130],
+        "hex": "#9AC782"
+      },
+      {
+        "value": ">20.0",
+        "category": "LARGE",
+        "rgb": [121, 191, 129],
+        "hex": "#79BF81"
+      }
+    ]
+  },
+  "pH": {
+    "name": "pH",
+    "unit": "",
+    "clinical": ["ACIDIC", "NEUTRAL", "ALKALINE"],
+    "quantitative": ["LOW", "NORMAL", "HIGH"],
+    "stable": {
+      "rgb": [
+        [192, 164, 55],
+        [205, 187, 79]
+      ],
+      "hex": ["#C0A437", "#CDBB4F"],
+      "value": "5.0"
+    },
+    "categories": {
+      "ACIDIC": {
+        "label": "Acidic",
+        "clinical_name": "ACIDIC",
+        "quantitative_name": "LOW",
+        "values": ["6.0", "6.5", "7.0"],
+        "rgb": [
+          [189, 192, 1],
+          [158, 181, 29],
+          [132, 161, 42]
+        ],
+        "hex": ["#BDC001", "#9EB51D", "#84A12A"]
+      },
+      "NEUTRAL": {
+        "value": 7.5,
+        "label": "Neutral",
+        "clinical_name": "NEUTRAL",
+        "quantitative_name": "NORMAL",
+        "rgb": [109, 157, 48],
+        "hex": "#6D9D30"
+      },
+      "ALKALINE": {
+        "values": ["8.0", "8.5"],
+        "label": "Alkaline",
+        "clinical_name": "ALKALINE",
+        "quantitative_name": "HIGH",
+        "rgb": [
+          [71, 139, 56],
+          [0, 111, 151]
+        ],
+        "hex": ["#478B38", "#006F97"]
+      }
+    },
+    "values": [
+      {
+        "value": "6.0",
+        "category": "ACIDIC",
+        "rgb": [189, 192, 1],
+        "hex": "#BDC001"
+      },
+      {
+        "value": "6.5",
+        "category": "ACIDIC",
+        "rgb": [158, 181, 29],
+        "hex": "#9EB51D"
+      },
+      {
+        "value": "7.0",
+        "category": "ACIDIC",
+        "rgb": [132, 161, 42],
+        "hex": "#84A12A"
+      },
+      {
+        "value": "7.5",
+        "category": "NEUTRAL",
+        "rgb": [109, 157, 48],
+        "hex": "#6D9D30"
+      },
+      {
+        "value": "8.0",
+        "category": "ALKALINE",
+        "rgb": [71, 139, 56],
+        "hex": "#478B38"
+      },
+      {
+        "value": "8.5",
+        "category": "ALKALINE",
+        "rgb": [0, 111, 151],
+        "hex": "#006F97"
+      }
+    ]
+  },
+  "Specific_Gravity": {
+    "name": "Specific_Gravity",
+    "unit": "",
+    "clinical": ["OVER_HYDRATION", "OPTIMAL", "DEHYDRATION", "SEVERE_DEHYDRATION"],
+    "quantitative": ["LOW", "NORMAL", "HIGH", "VERY_HIGH"],
+    "stable": {
+      "rgb": [
+        [185, 166, 50],
+        [185, 150, 22]
+      ],
+      "hex": ["#B9A632", "#B99616"],
+      "value": "1.000"
+    },
+    "categories": {
+      "LOW": {
+        "label": "Low",
+        "values": ["1.005", "1.010", "1.015"],
+        "rgb": [
+          [105, 147, 83],
+          [132, 157, 65],
+          [183, 178, 50]
+        ],
+        "hex": ["#699353", "#849D41", "#B7B232"]
+      },
+      "MEDIUM": {
+        "value": 1.020,
+        "label": "Medium",
+        "rgb": [204, 193, 43],
+        "hex": "#CCC12B"
+      },
+      "LARGE": {
+        "value": 1.025,
+        "label": "Large",
+        "rgb": [223, 190, 51],
+        "hex": "#DFBE33"
+      },
+      "VERY_LARGE": {
+        "value": 1.030,
+        "label": "Very Large",
+        "rgb": [244, 205, 22],
+        "hex": "#F4CD16"
+      }
+    },
+    "values": [
+      {
+        "value": "1.005",
+        "category": "LOW",
+        "rgb": [105, 147, 83],
+        "hex": "#699353"
+      },
+      {
+        "value": "1.010",
+        "category": "LOW",
+        "rgb": [132, 157, 65],
+        "hex": "#849D41"
+      },
+      {
+        "value": "1.015",
+        "category": "LOW",
+        "rgb": [183, 178, 50],
+        "hex": "#B7B232"
+      },
+      {
+        "value": "1.020",
+        "category": "MEDIUM",
+        "rgb": [204, 193, 43],
+        "hex": "#CCC12B"
+      },
+      {
+        "value": "1.025",
+        "category": "LARGE",
+        "rgb": [223, 190, 51],
+        "hex": "#DFBE33"
+      },
+      {
+        "value": "1.030",
+        "category": "VERY_LARGE",
+        "rgb": [244, 205, 22],
+        "hex": "#F4CD16"
+      }
+    ]
+  },
+  "Sodium": {
+    "name": "Sodium",
+    "unit": "mg/dl",
+    "clinical": ["DEFICIENT", "NORMAL", "EXCESS"],
+    "quantitative": ["LOW", "MEDIUM", "HIGH"],
+    "stable": {
+      "rgb": [195, 81, 27],
+      "hex": "#C3511B",
+      "value": "0"
+    },
+    "categories": {
+      "LOW": {
+        "label": "Low",
+        "values": ["100", "200"],
+        "rgb": [
+          [192, 139, 141],
+          [229, 157, 147]
+        ],
+        "hex": ["#C08B8D", "#E59D93"]
+      },
+      "MEDIUM": {
+        "value": 300,
+        "label": "Medium",
+        "rgb": [226, 191, 180],
+        "hex": "#E2BFB4"
+      },
+      "HIGH": {
+        "values": ["400", "500"],
+        "label": "High",
+        "rgb": [
+          [236, 212, 206],
+          [248, 241, 239]
+        ],
+        "hex": ["#ECD4CE", "#F8F1EF"]
+      }
+    },
+    "values": [
+      {
+        "value": "100",
+        "category": "LOW",
+        "rgb": [192, 139, 141],
+        "hex": "#C08B8D"
+      },
+      {
+        "value": "200",
+        "category": "LOW",
+        "rgb": [229, 157, 147],
+        "hex": "#E59D93"
+      },
+      {
+        "value": "300",
+        "category": "MEDIUM",
+        "rgb": [226, 191, 180],
+        "hex": "#E2BFB4"
+      },
+      {
+        "value": "400",
+        "category": "HIGH",
+        "rgb": [236, 212, 206],
+        "hex": "#ECD4CE"
+      },
+      {
+        "value": "500",
+        "category": "HIGH",
+        "rgb": [248, 241, 239],
+        "hex": "#F8F1EF"
+      }
+    ]
+  },
+  "Magnesium": {
+    "name": "Magnesium",
+    "unit": "mg/L",
+    "clinical": ["DEFICIENT", "NORMAL", "EXCESS"],
+    "quantitative": ["LOW", "MEDIUM", "HIGH"],
+    "stable": {
+      "rgb": [
+        [208, 213, 183],
+        [189, 183, 147]
+      ],
+      "hex": ["#D0D5B7", "#BDB793"],
+      "value": "10"
+    },
+    "categories": {
+      "LOW": {
+        "label": "Low",
+        "values": ["15"],
+        "rgb": [
+          [247, 238, 239]
+        ],
+        "hex": ["#F7EEEF"]
+      },
+      "MEDIUM": {
+        "value": 20,
+        "label": "Medium",
+        "rgb": [241, 224, 232],
+        "hex": "#F1E0E8"
+      },
+      "HIGH": {
+        "values": ["25", ">=40"],
+        "label": "High",
+        "rgb": [
+          [229, 206, 222],
+          [197, 182, 213]
+        ],
+        "hex": ["#E5CEDE", "#C5B6D5"]
+      }
+    },
+    "values": [
+      {
+        "value": "15",
+        "category": "LOW",
+        "rgb": [247, 238, 239],
+        "hex": "#F7EEEF"
+      },
+      {
+        "value": "20",
+        "category": "MEDIUM",
+        "rgb": [241, 224, 232],
+        "hex": "#F1E0E8"
+      },
+      {
+        "value": "25",
+        "category": "HIGH",
+        "rgb": [229, 206, 222],
+        "hex": "#E5CEDE"
+      },
+      {
+        "value": ">=40",
+        "category": "HIGH",
+        "rgb": [197, 182, 213],
+        "hex": "#C5B6D5"
+      }
+    ]
+  },
+  "Calcium": {
+    "name": "Calcium",
+    "unit": "mmol/l",
+    "clinical": ["DEFICIENT", "NORMAL", "EXCESS"],
+    "quantitative": ["LOW", "MEDIUM", "HIGH"],
+    "stable": {
+      "rgb": [
+        [204, 209, 179],
+        [203, 206, 177],
+        [209, 206, 183],
+        [203, 211, 181],
+        [207, 210, 181]
+      ],
+      "hex": ["#CCD1B3", "#CBCEB1", "#D1CEB7", "#CBD3B5", "#CFD2B5"],
+      "value": "<=1.0"
+    },
+    "categories": {
+      "LOW": {
+        "label": "Low",
+        "values": ["2.5"],
+        "rgb": [
+          [247, 238, 239]
+        ],
+        "hex": ["#F7EEEF"]
+      },
+      "MEDIUM": {
+        "value": 5.0,
+        "label": "Medium",
+        "rgb": [241, 224, 232],
+        "hex": "#F1E0E8"
+      },
+      "HIGH": {
+        "values": ["7.5", ">=10"],
+        "label": "High",
+        "rgb": [
+          [230, 206, 222],
+          [197, 182, 213]
+        ],
+        "hex": ["#E6CEDE", "#C5B6D5"]
+      }
+    },
+    "values": [
+      {
+        "value": "2.5",
+        "category": "LOW",
+        "rgb": [247, 238, 239],
+        "hex": "#F7EEEF"
+      },
+      {
+        "value": "5.0",
+        "category": "MEDIUM",
+        "rgb": [241, 224, 232],
+        "hex": "#F1E0E8"
+      },
+      {
+        "value": "7.5",
+        "category": "HIGH",
+        "rgb": [230, 206, 222],
+        "hex": "#E6CEDE"
+      },
+      {
+        "value": ">=10",
+        "category": "HIGH",
+        "rgb": [197, 182, 213],
+        "hex": "#C5B6D5"
+      }
+    ]
+  },
+  "MDA": {
+    "name": "MDA",
+    "unit": "",
+    "clinical": ["NORMAL", "ELEVATED", "INCREASED", "SEVERE"],
+    "quantitative": ["NORMAL", "MODERATE", "HIGH", "VERY_HIGH"],
+    "stable": {
+      "rgb": [
+        [203, 189, 163],
+        [220, 219, 188]
+      ],
+      "hex": ["#CBBDA3", "#DCDBBC"],
+      "value": "stable"
+    },
+    "high": {
+      "rgb": [201, 164, 172],
+      "hex": "#C9A4AC",
+      "value": "HIGH",
+      "description": "MDA: HIGH - Elevated"
+    },
+    "categories": {
+      "NORMAL": {
+        "label": "Normal",
+        "rgb": [254, 247, 239],
+        "hex": "#FEF7EF"
+      },
+      "ATTENTION": {
+        "label": "Attention",
+        "rgb": [251, 237, 236],
+        "hex": "#FBEDEC"
+      },
+      "MEDIUM": {
+        "label": "A bit high",
+        "rgb": [
+          [249, 228, 227],
+          [248, 208, 212]
+        ],
+        "hex": ["#F9E4E3", "#F8D0D4"]
+      },
+      "HIGH": {
+        "label": "High",
+        "rgb": [
+          [244, 187, 193],
+          [244, 176, 179]
+        ],
+        "hex": ["#F4BBC1", "#F4B0B3"]
+      }
+    },
+    "values": [
+      {
+        "value": "normal",
+        "category": "NORMAL",
+        "rgb": [254, 247, 239],
+        "hex": "#FEF7EF"
+      },
+      {
+        "value": "attention",
+        "category": "ATTENTION",
+        "rgb": [251, 237, 236],
+        "hex": "#FBEDEC"
+      },
+      {
+        "value": "a bit high",
+        "category": "MEDIUM",
+        "rgb": [249, 228, 227],
+        "hex": "#F9E4E3"
+      },
+      {
+        "value": "a bit high",
+        "category": "MEDIUM",
+        "rgb": [248, 208, 212],
+        "hex": "#F8D0D4"
+      },
+      {
+        "value": "high",
+        "category": "HIGH",
+        "rgb": [244, 187, 193],
+        "hex": "#F4BBC1"
+      },
+      {
+        "value": "high",
+        "category": "HIGH",
+        "rgb": [244, 176, 179],
+        "hex": "#F4B0B3"
+      }
+    ]
+  },
+  "Creatinine": {
+    "name": "Creatinine",
+    "unit": "mmol/l",
+    "clinical": ["NORMAL", "ELEVATED", "SEVERE"],
+    "quantitative": ["NORMAL", "HIGH", "VERY_HIGH"],
+    "stable": {
+      "rgb": [
+        [209, 205, 134],
+        [189, 173, 111]
+      ],
+      "hex": ["#D1CD86", "#BDAD6F"],
+      "value": "0.9"
+    },
+    "categories": {
+      "BIT_HIGH": {
+        "label": "A bit high",
+        "values": ["4.4", "8.8"],
+        "rgb": [
+          [246, 231, 202],
+          [238, 221, 195]
+        ],
+        "hex": ["#F6E7CA", "#EEDDC3"]
+      },
+      "HIGH": {
+        "label": "High",
+        "values": ["17.7", "26.5"],
+        "rgb": [
+          [225, 212, 193],
+          [193, 174, 176]
+        ],
+        "hex": ["#E1D4C1", "#C1AEB0"]
+      }
+    },
+    "values": [
+      {
+        "value": "4.4",
+        "category": "BIT_HIGH",
+        "rgb": [246, 231, 202],
+        "hex": "#F6E7CA"
+      },
+      {
+        "value": "8.8",
+        "category": "BIT_HIGH",
+        "rgb": [238, 221, 195],
+        "hex": "#EEDDC3"
+      },
+      {
+        "value": "17.7",
+        "category": "HIGH",
+        "rgb": [225, 212, 193],
+        "hex": "#E1D4C1"
+      },
+      {
+        "value": "26.5",
+        "category": "HIGH",
+        "rgb": [193, 174, 176],
+        "hex": "#C1AEB0"
+      }
+    ]
+  },
+  "Vitamin_C": {
+    "name": "Vitamin_C",
+    "unit": "mmol/l",
+    "clinical": ["DEFICIENT", "ADEQUATE", "OPTIMAL"],
+    "quantitative": ["LOW", "NORMAL", "HIGH"],
+    "stable": {
+      "rgb": [37, 128, 149],
+      "hex": "#258095",
+      "value": "0"
+    },
+    "categories": {
+      "BIT_HIGH": {
+        "label": "A bit high",
+        "values": ["0.6", "1.4"],
+        "rgb": [
+          [0, 156, 125],
+          [140, 196, 85]
+        ],
+        "hex": ["#009C7D", "#8CC455"]
+      },
+      "HIGH": {
+        "label": "High",
+        "values": ["2.8", "5.0"],
+        "rgb": [
+          [214, 216, 21],
+          [251, 244, 154]
+        ],
+        "hex": ["#D6D815", "#FBF49A"]
+      }
+    },
+    "values": [
+      {
+        "value": "0.6",
+        "category": "BIT_HIGH",
+        "rgb": [0, 156, 125],
+        "hex": "#009C7D"
+      },
+      {
+        "value": "1.4",
+        "category": "BIT_HIGH",
+        "rgb": [140, 196, 85],
+        "hex": "#8CC455"
+      },
+      {
+        "value": "2.8",
+        "category": "HIGH",
+        "rgb": [214, 216, 21],
+        "hex": "#D6D815"
+      },
+      {
+        "value": "5.0",
+        "category": "HIGH",
+        "rgb": [251, 244, 154],
+        "hex": "#FBF49A"
+      }
+    ]
+  }
+} 
